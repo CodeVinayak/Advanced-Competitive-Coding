@@ -1,4 +1,4 @@
-public class Main {
+public class BlockSwapAlgorithm {
     // Function to rotate an array to the left by 'd' positions using block swap algorithm
     static void rotateLeft(int[] arr, int d) {
         int n = arr.length;
@@ -8,7 +8,7 @@ public class Main {
         reverse(arr, d, n - 1); // Reverse the remaining elements
         reverse(arr, 0, n - 1); // Reverse the entire array
     }
-    
+
     // Function to reverse elements in the array from index 'start' to 'end'
     static void reverse(int[] arr, int start, int end) {
         while (start < end) {
