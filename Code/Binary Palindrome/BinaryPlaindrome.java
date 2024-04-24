@@ -1,4 +1,4 @@
-class Main {
+class BinaryPlaindrome {
     public static void main(String[] args) {
         int x = 9;
         String s = Integer.toBinaryString(x);
