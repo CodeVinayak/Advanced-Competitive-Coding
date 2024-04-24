@@ -1,9 +1,8 @@
-import java.io.*;
 class Main {
     public static void main(String[] args) {
         int x = 9;
         String s = Integer.toBinaryString(x);
-        boolean ans = false;
+        // boolean ans = false;
         String s1 = "";
         for (int i = s.length() - 1; i >= 0; i--) {
             s1 = s1 + s.charAt(i);
