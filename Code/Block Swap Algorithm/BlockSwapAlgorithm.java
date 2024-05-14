@@ -3,7 +3,7 @@ public class BlockSwapAlgorithm {
     static void rotateLeft(int[] arr, int d) {
         int n = arr.length;
         d %= n; // To handle cases where d is greater than the array length
-        if (d == 0) return; // No rotation needed
+        if (d == 0) return; // No rotation neededz
         reverse(arr, 0, d - 1); // Reverse the first d elements
         reverse(arr, d, n - 1); // Reverse the remaining elements
         reverse(arr, 0, n - 1); // Reverse the entire array

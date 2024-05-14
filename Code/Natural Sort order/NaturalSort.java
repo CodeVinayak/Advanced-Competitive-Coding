@@ -54,7 +54,7 @@ public class NaturalSort {
     }
     public static void main(String[] args) {
         // Example array of strings to be sorted naturally
-        String[] strings = {"file1.txt", "file10.txt", "file2.txt", "file20.txt", "file3.txt"};
+        String[] strings = {"filea.txt", "file10.txt", "file2.txt", "file20.txt", "file3.txt"};
         // Sort the array using natural order comparator
         Arrays.sort(strings, naturalOrderComparator);
         // Print the sorted array
